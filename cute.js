@@ -4,8 +4,12 @@ let rover_x = 10;
 let rover_y = 10;
 
 
-document.getElementById('myCanvas');
-ctx = canvas.getContext("2d");
+let canvas = document.getElementById('myCanvas');
+let ctx;
+
+if(canvas.getContext) {
+    ctx = canvas.getContext('2d');
+ }
 
 let background_image = "cat.jpg";
 let rover_image = "car1.png";
