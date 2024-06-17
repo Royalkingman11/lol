@@ -2,7 +2,7 @@ rover_width = 100;
 rover_height = 90;
 rover_x = 10;
 rover_y = 10;
-object.addEventListener("load", add);
+
 
 document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
