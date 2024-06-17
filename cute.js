@@ -1,14 +1,14 @@
-rover_width = 100;
-rover_height = 90;
-rover_x = 10;
-rover_y = 10;
+let rover_width = 100;
+let rover_height = 90;
+let rover_x = 10;
+let rover_y = 10;
 
 
 document.getElementById('myCanvas');
 ctx = canvas.getContext("2d");
 
-background_image = "cat.jpg";
-rover_image = "car1.png";
+let background_image = "cat.jpg";
+let rover_image = "car1.png";
 
 
 function add() {
